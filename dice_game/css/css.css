@@ -3,7 +3,6 @@ height: 100%;
 
 }
 
-
 .dice{
     height: 300px !important;
     width: 300px !important;
@@ -15,3 +14,5 @@ height: 100%;
     background-color: black;
     border-radius: 100%;
 }
+
+
