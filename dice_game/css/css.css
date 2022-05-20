@@ -1,0 +1,17 @@
+html,body,.main{
+height: 100%;
+
+}
+
+
+.dice{
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+    border-radius: 100%;
+}

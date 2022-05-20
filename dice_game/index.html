@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+
+    <div class="main d-flex justify-content-center align-items-center">
+
+        <div class="container border border-5 border-dark p-4 ">
+            <h1 class="text-danger text-center display-3 fw-bolder">The Dice Games</h1>
+
+            <div id="diceGif" class="container py-5 d-none ">
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-6 mx-5 border border-dark border-4 dice"><img src="images/dice.gif" height="280px" width="280px" alt="dice gif"></div>
+                    <div class="col-6 mx-5 border border-dark border-4 dice"><img src="images/dice.gif" height="280px" width="280px" alt="dice gif"></div>
+                </div>
+            </div>
+            
+            
+            <div id="diceDiv" class="container py-5  ">
+                <div class="row d-flex justify-content-center ">
+                    <div class="col-6 mx-4 border border-dark border-4 d-flex py-3   dice">
+                        <div class="container-fluid p-0 d-flex flex-column justify-content-between">
+                            <div id="d1" class="circle d-none"></div><div id="d2" class="circle d-none "></div><div id="d3" class="circle d-none"></div>
+                        </div>
+
+                        <div class="container-fluid d-flex  align-items-center">
+                            <div id="d4" class="circle d-none"></div>
+                        </div>
+
+                        <div class="container-fluid p-0 d-flex flex-column justify-content-between">
+                            <div id="d5" class="circle d-none"></div><div id="d6" class="circle d-none "></div><div id="d7" class="circle d-none"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="col-6 mx-4 border border-dark border-4 d-flex py-3   dice">
+                        <div class="container-fluid p-0 d-flex flex-column justify-content-between">
+                            <div id="di1" class="circle d-none"></div><div id="di2" class="circle d-none "></div><div id="di3" class="circle d-none"></div>
+                        </div>
+
+                        <div class="container-fluid d-flex  align-items-center">
+                            <div id="di4" class="circle d-none "></div>
+                        </div>
+
+                        <div class="container-fluid p-0 d-flex flex-column justify-content-between">
+                            <div id="di5" class="circle d-none"></div><div id="di6" class="circle d-none"></div><div id="di7" class="circle d-none"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+            
+            <div class="d-grid gap-2 pt-5 col-6 mx-auto">
+                <button id="rollDice" class="btn border border-dark my-3 border-4 " type="button"><p class="text-danger display-3 ">Roll Dice</p></button>
+                <button id="hold" class="btn border border-dark my-3 border-4" type="button"><p class="text-danger display-3 ">Hold</p></button>
+              </div>
+
+            <div class="container px-5 d-flex justify-content-between">
+                <div class="fw-bolder display-1"><p>Total</p></div>
+                <div class="fw-bolder display-1">4</div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="javascript/javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
