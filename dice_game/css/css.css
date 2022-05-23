@@ -2,17 +2,17 @@ html,body,.main{
 height: 100%;
 
 }
-
 .dice{
     height: 300px !important;
     width: 300px !important;
 }
-
 .circle{
     height: 70px;
     width: 70px;
     background-color: black;
     border-radius: 100%;
 }
-
+#d1,#d2,#d3,#d4,#d5,#d6,#d7,#di1,#di2,#di3,#di4,#di5,#di6,#di7{
+    visibility: hidden;
+}
 
