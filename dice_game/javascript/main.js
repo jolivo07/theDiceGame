@@ -16,7 +16,7 @@ document.getElementById("hold").addEventListener("click",()=>{
     let contOne = randomDiceOne(1,7)
     let contTwo = randomDiceOne(1,7)
     let result = contOne + contTwo
-    document.getElementById("result").innerHTML = result 
+    document.getElementById("result").innerHTML = result
     class Dices {
         faces = new Map([
             [1, new DicesSide([4], [1, 2, 3, 5, 6, 7])],
@@ -37,13 +37,13 @@ document.getElementById("hold").addEventListener("click",()=>{
             face.hiddenPoints.forEach(point => {
                 document.getElementById(`${this.name}${point}`).style["visibility"] = "hidden";
             });
-        }   
-    }  
+        }
+    }
     class DicesSide {
         constructor(visiblePoints, hiddenPoints){
             this.visiblePoints=visiblePoints;
             this.hiddenPoints=hiddenPoints;
-        }   
+        }
     }
         const dice1 = new Dices("d")
         const dice2 = new Dices("di")
