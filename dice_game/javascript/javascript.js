@@ -21,7 +21,6 @@ document.getElementById("hold").addEventListener("click",()=>{
             document.getElementById(valores[i].replace(/\s/g, "")).style["visibility"] = valor;
     };
      modifyingStyleCss("d1,d2,d3,d4,d5,d6,d7,di1,di2,di3,di4,di5,di6,di7","hidden")
-
     diceOne = new Map([
         [1, [4]],
         [2, [1,7]],
